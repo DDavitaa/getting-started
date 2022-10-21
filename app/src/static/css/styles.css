@@ -1,16 +1,33 @@
 body {
-    background-color: #f4f4f4;
+    background-color: #333333;
     margin-top: 50px;
-    font-family: 'Lato';
+    font-family: 'Helvetica';
+}
+
+h1
+{
+	text-align: center;
+	padding-bottom: 30px;
+	color: #fff;
+	font-size: 4em;
+	
+}
+
+hr
+{
+	background-color: #888;
+	width: 70%;
+	margin-bottom: 50px;
 }
 
 .item {
-    background-color: white;
+    color: #000;
+    background-color: #ccc;
     padding: 15px;
     margin-bottom: 15px;
     border: transparent;
     border-radius: 5px;
-    box-shadow: 0 0 1em #ccc;
+    box-shadow: 0 0 1em #fff;
     transition: all .2s ease-in-out;
 }
 
